@@ -1,0 +1,300 @@
+/*---------- color palate-----------
+	
+			gray= #6b6b6b
+			red= #f93536
+			light red= #fc9596
+	also use white and black for borders
+*/
+
+body{
+	font: 100%/1.5 Tahoma, Geneva, sans-serif;
+	max-width: 800px;
+	margin: 0 auto;
+	background-image: url(../images/backgroundred.jpg);
+	background-color: #fff;
+	background-repeat: repeat-x;
+}
+
+/* header css */
+header{
+	background: rgba(0,0,0,0);
+	box-shadow: 10px 10px 5px #6b6b6b;
+	border: 1px solid #000;
+	height: 50px;
+	width: 100%;
+}
+
+#nav{
+	width: 56.25%; /*450px*/
+	margin: 1.25% auto; /*10px*/
+	list-style: none;
+	padding: 0;
+	float: right;
+	overflow: hidden;
+}
+
+.link{
+	width: 22.222222222222%; /*100px*/
+	padding: 1.1111111111%; /*5px*/
+	float: right;
+}
+
+.navlink{
+	text-decoration: none;
+	background: #000;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+a:visited{
+	color: #6b6b6b;
+}
+
+a:hover{
+	color: #f00;
+	background: #000;
+}
+
+a:active{
+	background: #fff;
+}
+
+/* start of main section */
+#branding{
+	font: 3.75em/1.5 'quintessential', cursive;/*60px*/
+	margin: 40px auto;
+	text-align: center;
+	text-shadow: 30px 30px 15px #fff;
+	clear: right;
+}
+
+.article1{
+	-webkit-column-count: 3;
+	-webkit-column-gap: 20px;
+	-moz-column-count: 3;
+	-moz-column-gap: 20px;
+	column-count: 3;
+	column-gap: 20px;
+}
+img{
+	max-width: 100%;
+}
+#photo1{
+	display: block;  
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.jonesheading{
+	margin: auto;
+}
+
+#photo2{
+	margin-left: 1.25%;
+	float: right;
+}
+
+/* aside on right side of page */
+aside{
+	float: right;
+	padding:1.25%;
+	margin: 6.25%;
+	background: rgba(249, 53, 53, .6);
+	border: 1px solid #000;
+	width: 50%;
+	box-shadow: -10px 10px 5px #6b6b6b;
+}
+
+h4{
+	font: 1.5625em/1.5 'quintessential', cursive;/*25px*/
+	text-decoration: underline;
+	text-align: center;
+}
+
+.solo{
+	list-style: circle;
+	margin: 10px;
+	padding: 5px;
+	line-height: 35px;
+}
+
+/* to left of aside */
+#fortyyears{
+	clear: left;
+	text-align: left;
+}
+/* end of main css */
+
+/* Gallery css */
+.galleryheading{
+	text-align: center;
+}
+
+#ulgallery{
+	border: 5px solid #000;
+	list-style-type: none;
+	width: 86.25%; /* 690px */
+	margin: 1.25% auto; /* 10px */
+	padding: 0.625%;/* 5px */
+	overflow: hidden;
+}
+
+.gallery{
+	float: left;
+	margin-left: 0.289855072464%; /*2px*/
+}
+
+.gallink{
+	border: 10px solid #f93536;
+	display: block;
+	height: 150px;
+	width: 150px;
+	outline: 0;
+}
+
+a:visited{
+	border-color: silver;	
+}
+
+a:hover{
+	border-color: #fc9596; 	
+}
+
+a:active{
+	border-color: #000;
+}
+
+/* sign up reminder */
+h2{
+	clear: left;
+	text-align: center;
+}
+
+#signup{
+	clear: left;
+	text-align: center;
+}
+
+/* button */
+.button {
+	display: inline-block;
+	vertical-align: baseline;
+	margin-left: 43.125%; /* 345px */
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: .875em/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.button:hover {
+	text-decoration: none;
+}
+
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+/* button color */
+.red{
+	color: #faddde;
+	border: solid 1px #980c10;
+	background: #d81b21;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317));
+	background: -moz-linear-gradient(top,  #ed1c24,  #aa1317);
+}
+
+.red:visited{
+	color: gray;
+}
+
+.red:hover{
+	background: #b61318;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115));
+	background: -moz-linear-gradient(top,  #c9151b,  #a11115);
+}
+
+.red:active{
+	color: #de898c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#aa1317), to(#ed1c24));
+	background: -moz-linear-gradient(top,  #aa1317,  #ed1c24);
+}
+
+/* footer css*/
+footer{
+	background: #f93536;
+	border: 2px solid #000;
+	height: 80px;
+	width: 100%;
+}
+
+#footer{
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 0;
+}
+
+.footerlist{
+	margin-left: 11.25%; /* 90px */
+	margin-right: 11.25%; /* 90px */
+	padding: 0.322580645161%;
+	float: left;
+}
+
+.footerlink{
+	font: .875em;
+	color: #000;
+	height: 40px;
+	line-height: 80px;
+	text-align: center;
+}
+
+a:visited{
+	color: #6b6b6b
+}
+
+a:hover{
+	color: #fff
+}
+
+a:active{
+	color: #f00;
+}
+
+/* Media Queries
+===========================================*/
+
+  /* Tablet Portrait size to standard 960 (devices and browsers)*/
+  	@media screen and(min-width=786px)and(max-width=959px){
+
+}
+  
+  
+  
+  /* Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
+  	@media only screen and(min-width=480px)and(max-width=767px){
+ 	.article1{ display: none;} 
+}
+
+  
+  
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
+ 	 @media only screen and(max-width=479px){
+  		#photo2{ display: none;}
+  		aside{float: none;}
+  		#ulgallery{display: none;}
+  		.article1{display: none;}
+  
+}

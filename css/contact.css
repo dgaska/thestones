@@ -1,0 +1,78 @@
+/*---------- color palate-----------
+	
+			gray= #6b6b6b
+			red= #f93536
+			light red= #fc9596
+	also use white and black for borders
+*/
+
+body{
+	font: 15px/1.5 Tahoma, Geneva, sans-serif;
+	width: 800px;
+	margin: 0 auto;
+	background-image: url(../images/backgroundred.jpg);
+	background-color: #fff;
+	background-repeat: repeat-x;
+}
+
+/* header css */
+header{
+	background: rgba(0,0,0,0);
+	box-shadow: 10px 10px 5px #6b6b6b;
+	border: 1px solid #000;
+	height: 50px;
+	width: 800px;
+}
+
+#nav{
+	width: 450px;
+	margin: 10px auto;
+	list-style: none;
+	padding: 0;
+	float: right;
+	overflow: hidden;
+}
+
+.link{
+	width: 100px;
+	padding: 5px;
+	float: right;
+}
+
+.navlink{
+	text-decoration: none;
+	background: #000;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+a:visited{
+	color: #6b6b6b;
+}
+
+a:hover{
+	color: #f00;
+	background: #000;
+}
+
+a:active{
+	background: #fff;
+}
+
+/* main contact css */
+h1{
+	font: 60px/1.5;
+	margin: 100px auto;
+	text-align: center;
+	text-shadow: 30px 30px 15px #fff;
+	clear: right;
+	clear: both;
+}
+
+address{
+	text-align: center;
+	clear: both;
+}
