@@ -303,7 +303,9 @@ a:active{
   		aside{float: none; width: 90%;}
   		h3{ text-align: center;}
   		#ulgallery{ border: none; width: 95%; margin: 1.25% auto;}
+  		.gallink{margin-left:25%; margin-right:25%;}
   		.footerlist{ margin-left: 2%; margin-right: 2%;}
+  		.button{margin-left: 42%;}
   		
   		
 }
@@ -330,7 +332,8 @@ a:active{
 		.navlink{overflow: hidden;}		
 		#branding{font-size: 1.75em}
 		#ulgallery{border: none; }
-		.gallink{border: none; margin-left: 10%; margin-right: 25%;}
+		.gallink{border: none; margin-left: 25%; margin-right: 25%;}
 		footer{background:none; border: none; border-top:1px solid;}
 		.footerlist{ float: none;}
+		.button{margin-left: 33%;}
 }
