@@ -40,6 +40,7 @@ header{
 }
 
 .navlink{
+	font: 0.875em;
 	text-decoration: none;
 	background: #000;
 	display: block;
@@ -47,6 +48,7 @@ header{
 	line-height: 20px;
 	text-align: center;
 	color: #fff;
+	padding: 1.11111111111%;
 }
 
 a:visited{
@@ -277,24 +279,60 @@ a:active{
 ===========================================*/
 
   /* Tablet Portrait size to standard 960 (devices and browsers)*/
-  	@media screen and(min-width=786px)and(max-width=959px){
-
+  	@media screen and (min-width:768px) and ( max-width:959px ){
+  		#ulgallery{ width: 100%; border:none;}
+ 		.footerlist{ margin-left: 0; margin-right: 0;}
+  		.footerlink{ padding: 0;}
+  	
 }
   
   
   
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
-  	@media only screen and(min-width=480px)and(max-width=767px){
- 	.article1{ display: none;} 
+  	@media only screen and (min-width:480px) and ( max-width:767px ){
+  		.article1{
+		-webkit-column-count: 1;
+		-webkit-column-gap: 20px;
+		-moz-column-count: 1;
+		-moz-column-gap: 20px;
+		column-count: 1;
+		column-gap: 20px;
+		}
+		#nav{float: none;}	
+		.link{padding: 0 auto;}
+		.navlink{background: none; overflow: hidden;}	
+  		#photo2, #photo3{ float: none; display: block; margin-left: auto; margin-right: auto;}
+  		aside{float: none; width: 90%;}
+  		h3{ text-align: center;}
+  		#ulgallery{ border: none; width: 95%; margin: 1.25% auto;}
+  		.footerlist{ float:left; margin-left: 0.161290322581%; margin-right: 0.161290322581%; padding:0.161290322581%;}
+  		.footerlink{ padding:2px;}
 }
+  	
 
   
   
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
- 	 @media only screen and(max-width=479px){
-  		#photo2{ display: none;}
-  		aside{float: none;}
-  		#ulgallery{display: none;}
-  		.article1{display: none;}
-  
+ 		 @media only screen and ( max-width:479px ){
+ 		 #photo1{display: none;}
+ 		 #photo2{ display: none;}
+ 		 #photo3{ display: none;}
+ 		 h3{text-align: center;}
+ 		 aside{ float: none; width: 80%;}
+ 		 .article1{
+		-webkit-column-count: 1;
+		-webkit-column-gap: 20px;
+		-moz-column-count: 1;
+		-moz-column-gap: 20px;
+		column-count: 1;
+		column-gap: 20px;
+		}
+		#nav{float: none;}	
+		.link{padding: 0 auto;}
+		.navlink{background: none; overflow: hidden;}	
+		#branding{font-size: 1.75em}
+		#ulgallery{border: none;}
+		.gallink{border: none;}
+		footer{background: none; border: none;}
+		.footerlist{ float: none;}
 }
