@@ -281,8 +281,7 @@ a:active{
   /* Tablet Portrait size to standard 960 (devices and browsers)*/
   	@media screen and (min-width:768px) and ( max-width:959px ){
   		#ulgallery{ width: 100%; border:none;}
- 		.footerlist{ margin-left: 0; margin-right: 0;}
-  		.footerlink{ padding: 0;}
+  		.footerlist{margin-left: 5%; margin-right:5%;}
   	
 }
   
@@ -304,8 +303,9 @@ a:active{
   		aside{float: none; width: 90%;}
   		h3{ text-align: center;}
   		#ulgallery{ border: none; width: 95%; margin: 1.25% auto;}
-  		.footerlist{ float:left; margin-left: 0.161290322581%; margin-right: 0.161290322581%; padding:0.161290322581%;}
-  		.footerlink{ padding:0.322580645161%;}
+  		.footerlist{ margin-left: 2%; margin-right: 2%;}
+  		
+  		
 }
   	
 
@@ -329,8 +329,8 @@ a:active{
 		#nav{float: none; padding: 2.222222222222%;}
 		.navlink{overflow: hidden;}		
 		#branding{font-size: 1.75em}
-		#ulgallery{border: none;}
-		.gallink{border: none;}
-		footer{background: none; border: none;}
+		#ulgallery{border: none; }
+		.gallink{border: none; margin-left: 10%; margin-right: 25%;}
+		footer{background:none; border: none; border-top:1px solid;}
 		.footerlist{ float: none;}
 }
