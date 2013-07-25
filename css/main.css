@@ -298,15 +298,14 @@ a:active{
 		column-count: 1;
 		column-gap: 20px;
 		}
-		#nav{float: none;}	
-		.link{padding: 0;}
-		.navlink{background: none; overflow: hidden;}	
+		#nav{float: none; padding: 2.222222222222%;}
+		.navlink{overflow: hidden;}	
   		#photo2, #photo3{ float: none; display: block; margin-left: auto; margin-right: auto;}
   		aside{float: none; width: 90%;}
   		h3{ text-align: center;}
   		#ulgallery{ border: none; width: 95%; margin: 1.25% auto;}
   		.footerlist{ float:left; margin-left: 0.161290322581%; margin-right: 0.161290322581%; padding:0.161290322581%;}
-  		.footerlink{ padding:2px;}
+  		.footerlink{ padding:0.322580645161%;}
 }
   	
 
@@ -327,9 +326,8 @@ a:active{
 		column-count: 1;
 		column-gap: 20px;
 		}
-		#nav{float: none;}	
-		.link{padding: 0;}
-		.navlink{background: none; overflow: hidden;}	
+		#nav{float: none; padding: 2.222222222222%;}
+		.navlink{overflow: hidden;}		
 		#branding{font-size: 1.75em}
 		#ulgallery{border: none;}
 		.gallink{border: none;}
