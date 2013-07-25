@@ -89,9 +89,8 @@ address{
   
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
   	@media only screen and (min-width:480px) and ( max-width:767px ){
-		#nav{float: none;}	
-		.link{padding: 0;}
-		.navlink{background: none; overflow: hidden;}	
+		#nav{float: none; padding: 2.222222222222%;}
+		.navlink{overflow: hidden;}	
 }
   	
 
@@ -99,7 +98,6 @@ address{
   
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
  		 @media only screen and ( max-width:479px ){
-		#nav{float: none;}	
-		.link{padding: 0;}
-		.navlink{background: none; overflow: hidden;}	
+		#nav{float: none; padding: 2.222222222222%;}
+		.navlink{overflow: hidden;}	
 }
