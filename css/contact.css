@@ -7,8 +7,8 @@
 */
 
 body{
-	font: 15px/1.5 Tahoma, Geneva, sans-serif;
-	width: 800px;
+	font: .9375em/1.5 Tahoma, Geneva, sans-serif;
+	max-width: 800px;
 	margin: 0 auto;
 	background-image: url(../images/backgroundred.jpg);
 	background-color: #fff;
@@ -21,12 +21,12 @@ header{
 	box-shadow: 10px 10px 5px #6b6b6b;
 	border: 1px solid #000;
 	height: 50px;
-	width: 800px;
+	width: 100%;
 }
 
 #nav{
-	width: 450px;
-	margin: 10px auto;
+	width: 56.25%;
+	margin: 1.25% auto;
 	list-style: none;
 	padding: 0;
 	float: right;
@@ -34,8 +34,8 @@ header{
 }
 
 .link{
-	width: 100px;
-	padding: 5px;
+	width: 22.222222222222%;
+	padding: 1.1111111111%;
 	float: right;
 }
 
@@ -64,8 +64,8 @@ a:active{
 
 /* main contact css */
 h1{
-	font: 60px/1.5;
-	margin: 100px auto;
+	font: 3.75em/1.5;
+	margin: 12.5% auto;
 	text-align: center;
 	text-shadow: 30px 30px 15px #fff;
 	clear: right;
@@ -75,4 +75,31 @@ h1{
 address{
 	text-align: center;
 	clear: both;
+}
+
+/* Media Queries
+===========================================*/
+
+  /* Tablet Portrait size to standard 960 (devices and browsers)*/
+  	@media screen and (min-width:768px) and ( max-width:959px ){
+  	
+}
+  
+  
+  
+  /* Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
+  	@media only screen and (min-width:480px) and ( max-width:767px ){
+		#nav{float: none;}	
+		.link{padding: 0;}
+		.navlink{background: none; overflow: hidden;}	
+}
+  	
+
+  
+  
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
+ 		 @media only screen and ( max-width:479px ){
+		#nav{float: none;}	
+		.link{padding: 0;}
+		.navlink{background: none; overflow: hidden;}	
 }
