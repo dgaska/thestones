@@ -126,6 +126,7 @@ button {
 	width: 10em;
 	margin-top: 2%;
 	margin-left: 43.25%;
+	margin-bottom: 2%;
 	background: #6d6d6d;
 	color: #000;
 	border-radius: 10px;
@@ -135,10 +136,51 @@ button:hover{
 	background: #f00
 }
 
+/* footer css*/
+footer{
+	background: #f93536;
+	border: 2px solid #000;
+	height: 80px;
+	width: 100%;
+}
+
+#footer{
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 0;
+}
+
+.footerlist{
+	margin-left: 11.25%; /* 90px */
+	margin-right: 11.25%; /* 90px */
+	padding: 0.322580645161%;
+	float: left;
+}
+
+.footerlink{
+	font: .875em;
+	color: #000;
+	height: 40px;
+	line-height: 80px;
+	text-align: center;
+}
+
+a:visited{
+	color: #6b6b6b
+}
+
+a:hover{
+	color: #fff
+}
+
+a:active{
+	color: #f00;
+}
+
 
  /* Tablet Portrait size to standard 960 (devices and browsers)*/
   	@media screen and (min-width:768px) and ( max-width:959px ){
-  	
+  		.footerlist{margin-left: 5%; margin-right:5%;}
   	
 }
   
@@ -150,7 +192,7 @@ button:hover{
 		.navlink{overflow: hidden;}	
 		#field2{width:90%;}
 		textarea{margin: 0;}
-		
+		.footerlist{ margin-left: 2%; margin-right: 2%;}
 }
   	
 
@@ -163,9 +205,10 @@ button:hover{
 		fieldset{margin: 0; border: 0;}
 		.sublegend{display: none;}
 		textarea{margin: 0; width: 90%;}
-		button{margin-left: 25%;}
+		button{margin-left: 25%; margin-top: 2%; margin-bottom: 2%;}
 		.checkbox{margin-left: 30%;}
-		
+		footer{background:none; border: none; border-top:1px solid;}
+		.footerlist{ float: none;}
 }
 
 
